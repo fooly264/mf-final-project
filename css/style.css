@@ -1,10 +1,13 @@
+.body {
+ background-color: cadetblue;
+}
 .accordion {
     width: auto;
     Margin: 0;
     cursor: pointer;
     text-align: center;
-    transition: 1s;
-    background-color: aqua;
+    transition: 2s;
+
     overflow: auto;
     border-radius: 10px;
     box-shadow: 0 4px 4px #6f3857;
@@ -12,6 +15,6 @@
   .panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: #6f3857;
     overflow: hidden;
   }
